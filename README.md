@@ -6,47 +6,77 @@ Problem Statement: I have to accurately estimate housing prices for real estate 
 Dataset: I used the California Housing Dataset from scikit-learn. 
 
 EDA (Exploratory Data Analysis):
+
 Key steps include:
+
 -Summary statistics to understand data distribution.
+
 -Visualisation of house value distribution. 
+
 -Scatter analysis between median income and house value, revealing a strong positive correlation. 
+
 -The EDA helped to validate feature relevance and confirms that regression is appropriate. 
 
 Machine Learning Pipeline:
+
 Data Preparation: 
+
 Feature and target separation
+
 Train–test split (80/20) to ensure unbiased evaluation
 
 Models Implemented:
+
 Linear Regression:
+
 Baseline model
+
 Assumes linear relationships
 
 Decision Tree Regressor:
+
 Captures non-linear patterns
+
 Learns feature interactions automatically
 
 Model Evaluation:
+
 Models were evaluated using:
+
 Mean Absolute Error (MAE)
+
 R² Score
 
 Key Insights:
+
 Median income is the strongest predictor of housing prices
+
 Non-linear models outperform linear models for this dataset
+
 Geographic features (latitude and longitude) significantly influence house value
 
 Future Improvements:
-Hyperparameter tuning (GridSearchCV)
-Cross-validation
-Feature importance visualization
-Ensemble models (Random Forest, Gradient Boosting)
+
+- Hyperparameter tuning (GridSearchCV)
+
+- Cross-validation
+
+- Feature importance visualization
+
+- Ensemble models (Random Forest, Gradient Boosting)
 
 Technologies used:
+
 - Python
--Pandas
--Numpy
--Matplotlib
--Seaborn
--Scikit-learn
--Jupyter Notebook
+
+- Pandas
+
+- Numpy
+
+- Matplotlib
+  
+- Seaborn
+
+- Scikit-learn
+
+- Jupyter Notebook
