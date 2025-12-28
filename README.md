@@ -5,57 +5,57 @@ Problem Statement: I have to accurately estimate housing prices for real estate 
 
 Dataset: I used the California Housing Dataset from scikit-learn. 
 
-EDA (Exploratory Data Analysis):
+****EDA (Exploratory Data Analysis):**
 
-Key steps include:
+**Key steps include:**
 
--Summary statistics to understand data distribution.
+- Summary statistics to understand data distribution.
 
--Visualisation of house value distribution. 
+- Visualisation of house value distribution. 
 
--Scatter analysis between median income and house value, revealing a strong positive correlation. 
+- Scatter analysis between median income and house value, revealing a strong positive correlation. 
 
--The EDA helped to validate feature relevance and confirms that regression is appropriate. 
+The EDA helped to validate feature relevance and confirms that regression is appropriate. 
 
-Machine Learning Pipeline:
+**Machine Learning Pipeline:**
 
-Data Preparation: 
+**Data Preparation:** 
 
-Feature and target separation
+- Feature and target separation
 
-Train–test split (80/20) to ensure unbiased evaluation
+- Train–test split (80/20) to ensure unbiased evaluation
 
-Models Implemented:
+**Models Implemented:**
 
-Linear Regression:
+**Linear Regression:**
 
-Baseline model
+- Baseline model
 
-Assumes linear relationships
+- Assumes linear relationships
 
-Decision Tree Regressor:
+**Decision Tree Regressor:**
 
-Captures non-linear patterns
+- Captures non-linear patterns
 
-Learns feature interactions automatically
+- Learns feature interactions automatically
 
-Model Evaluation:
+**Model Evaluation:**
 
-Models were evaluated using:
+****Models were evaluated using:**
 
-Mean Absolute Error (MAE)
+- Mean Absolute Error (MAE)
 
-R² Score
+- R² Score
 
-Key Insights:
+**Key Insights:**
 
-Median income is the strongest predictor of housing prices
+- Median income is the strongest predictor of housing prices
 
-Non-linear models outperform linear models for this dataset
+- Non-linear models outperform linear models for this dataset
 
-Geographic features (latitude and longitude) significantly influence house value
+- Geographic features (latitude and longitude) significantly influence house value
 
-Future Improvements:
+**Future Improvements:**
 
 - Hyperparameter tuning (GridSearchCV)
 
@@ -65,7 +65,7 @@ Future Improvements:
 
 - Ensemble models (Random Forest, Gradient Boosting)
 
-Technologies used:
+**Technologies used:**
 
 - Python
 
